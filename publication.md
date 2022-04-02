@@ -14,7 +14,7 @@ permalink: /publication/
 
 * Hiroki Shiraishi, Masakazu Tadokoro, **Yohei Hayamizu**, Yukiko Fukumoto, Hiroyuki Sato, and Keiki Takadama: Misclassification Detection based on Conditional VAE for Rule Evolution in Learning Classifier System, The Genetic and Evolutionary Computation Conference (GECCO), 2021. ([Paper](https://dl.acm.org/doi/10.1145/3449726.3459508))
 
-* Hiroki Shiraishi, Masakazu Tadokoro, Yohei **Hayamizu**, Yukiko Fukumoto, Hiroyuki Sato, and Keiki Takadama: Increasing Accuracy and Interpretability of High-Dimensional Rules for Learning Classifier System, IEEE Congress on Evolutionary Computation (CEC), 2021. ([Paper](https://ieeexplore.ieee.org/abstract/document/9504733))
+* Hiroki Shiraishi, Masakazu Tadokoro, **Yohei Hayamizu**, Yukiko Fukumoto, Hiroyuki Sato, and Keiki Takadama: Increasing Accuracy and Interpretability of High-Dimensional Rules for Learning Classifier System, IEEE Congress on Evolutionary Computation (CEC), 2021. ([Paper](https://ieeexplore.ieee.org/abstract/document/9504733))
 
 ###### 2020
 * **Yohei Hayamizu**, Saeid Amiri, Kishan Chandan, Keiki Takadama, Shiqi Zhang: Efficient Exploration in Reinforcement Learning Leveraging Automated Planning, The NeurIPS-2020 Workshop on Robot Learning, 2020. [Paper](http://www.robot-learning.ml/2020/files/C8.pdf), [Video](https://www.dropbox.com/s/btu1ghi10e4mhov/NeurIPSWS2020\_GDQ.mp4?dl=0))
