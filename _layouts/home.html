@@ -26,7 +26,7 @@ layout: default
       {{ post.excerpt | strip_html | escape | slice: 0, 200 }}
       {%- assign excerpt_size = post.excerpt | size -%}
       {%- if excerpt_size > 200 -%}
-        ...
+      ...
       {%- endif -%}
     </div>
     {%- endif -%}

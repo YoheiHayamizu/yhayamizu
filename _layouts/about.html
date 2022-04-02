@@ -8,15 +8,23 @@ layout: default
       <img src="{{ site.profile.picture | relative_url}}" alt="">
     </div>
     <div class="column">
-      <div class="is-size-5 has-text-weight-semibold">{{site.profile.name}} / {{site.profile.name_en}} ({{site.profile.position}})</div>
+      <div class="is-size-5 has-text-weight-semibold">
+        {%- if page.lang == "en-US" -%}
+        {{site.profile.name_en}}
+        {%- else -%}
+        {{site.profile.name}}
+        {%- endif -%}
+        ({{site.profile.position}})
+      </div>
       <div class="is-size-6">
-        {%- if page.lang == "en" -%}
+        {%- if page.lang == "en-US" -%}
         {{site.profile.affiliation_en}}
         {%- else -%}
         {{site.profile.affiliation}}
         {%- endif -%}
       </div>
-      {%- if site.profile.email -%}<div><span class="icon"><i class="far fa-envelope"></i></span><a href="mailto:{{ site.profile.email }}">{{ site.profile.email }}</a></div>{%- endif -%}
+      {%- if site.profile.email -%}<div><span class="icon"><i class="far fa-envelope"></i></span><a
+          href="mailto:{{ site.profile.email }}">{{ site.profile.email }}</a></div>{%- endif -%}
       {%- include social.html -%}
     </div>
   </div>

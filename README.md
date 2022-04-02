@@ -1,3 +1,5 @@
+This repository is based on Semimaro, a simple Jekyll Theme.
+
 # Semimaro - Jekyll Theme
 Semimaro is a simple, responsive Jekyll theme for researchers.
 

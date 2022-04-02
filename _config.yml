@@ -5,33 +5,34 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Semimaro
-copyright: (c) 2018 Hiroshi Yamada
-lang: ja-JP
+title: Yohei Hayamizu
+copyright: (c) 2022 Yohei Hayamizu
+lang: en-US
 
 # Please comment out url variables when you upload the files in _site directory to a web server other than GitHub Pages.
 # If you upload your site to https://your-domain.com/site-root, it is as follows:
 # url: https://your-domain.com
-# baseurl: /site-root
+baseurl: /
 
 # profile variables are used in About page.
 profile:
-  name: 山田浩史
-  name_en: Hiroshi Yamada
+  name: 速水陽平
+  name_en: Yohei Hayamizu
   position: PhD student
   picture: assets/images/profile.jpg
-  affiliation: Ruby大学 工学研究科 知能情報学専攻 Jekyll研究室
-  affiliation_en: Jekyll Lab. Graduate School of Engineering, Ruby University
-  email: email "at" example.com
+  affiliation: ニューヨーク州立大学ビンガムトン校 コンピュータサイエンス専攻 Autonomous Intelligent Robotics Lab.
+  affiliation_en: Autonomous Intelligent Robotics Lab. Department of Computer Science, SUNY Binghamton.
+  email: yhayami1 "at" binghamton.edu
   # social account setting
   # dribbble: username
-  facebook: FacebookJapan
+  facebook: hayamizuyohei
   # flickr: username
-  github: github
+  github: YoheiHayamizu
   # instagram: username
   # linkedin: username
   # pinterest: usename
-  twitter: &twitter_username TwitterJP
+  SCHOLAR_ID: J47eozMAAAAJ
+  twitter: &twitter_username rlmizu
   # googleplus: username
 
 # Post-url format setting
@@ -42,9 +43,9 @@ permalink: /blog/posts/:categories/:year/:month/:day/:hour-:minute-:second:outpu
 # Nested items make dropdown menu.
 navitem:
   - 
-    - about-ja.md
     - about-en.md
-  - blog.md
+    - about-ja.md
+  # - blog.md
   - publication.md
 
 # If you enable google analytics, comment out the following line:
