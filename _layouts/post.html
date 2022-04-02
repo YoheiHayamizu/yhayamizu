@@ -7,7 +7,7 @@ layout: default
   <div class="container">
     {% assign archives_page = site.pages | where: "path", "blog.md" | first %}
     {% assign tags_page = site.pages | where: "path", "tags.md" | first %}
-    <a href="{{ archives_page.url | relative_url }}">月別</a> | <a href="{{ tags_page.url | relative_url }}">タグ</a>
+    <a href="{{ archives_page.url | relative_url }}">Monthly</a> | <a href="{{ tags_page.url | relative_url }}">Tags</a>
   </div>
   <div class="columns">
     <div class="column is-two-thirds">
@@ -19,12 +19,12 @@ layout: default
           {{page.title | escape}}
         </div>
         {% if page.tags %}
-          <div>
-            {% for tag in page.tags %}
-              {% assign dest = tags_page.url | append: "#" | append: tag | relative_url %}
-              <a href="{{dest}}" class="tag">{{tag | escape}}</a>
-            {% endfor %}
-          </div>
+        <div>
+          {% for tag in page.tags %}
+          {% assign dest = tags_page.url | append: "#" | append: tag | relative_url %}
+          <a href="{{dest}}" class="tag">{{tag | escape}}</a>
+          {% endfor %}
+        </div>
         {% endif %}
         <hr>
         <div class="post-content">
@@ -37,26 +37,28 @@ layout: default
         <div class="columns is-mobile">
           <div class="column has-text-left is-size-7 p-r-none">
             {% if page.previous %}
-              {% assign title_size = page.previous.title | size %}
-              {% assign title = "" %}
-              {% if title_size > 8 %}
-                {% assign title = page.previous.title | slice: 0, 8 | append: "..."%}
-              {% else %}
-                {% assign title = page.previous.title %}
-              {% endif %}
-            &lt;&lt; <a href="{{ site.url | append: site.baseurl | append: page.previous.url | relative_url }}">{{ title | escape }}</a>
+            {% assign title_size = page.previous.title | size %}
+            {% assign title = "" %}
+            {% if title_size > 8 %}
+            {% assign title = page.previous.title | slice: 0, 8 | append: "..."%}
+            {% else %}
+            {% assign title = page.previous.title %}
+            {% endif %}
+            &lt;&lt; <a href="{{ site.url | append: site.baseurl | append: page.previous.url | relative_url }}">{{ title
+              | escape }}</a>
             {% endif %}
           </div>
           <div class="column has-text-right is-size-7 p-l-none">
             {% if page.next %}
-              {% assign title_size = page.next.title | size %}
-              {% assign title = "" %}
-              {% if title_size > 8 %}
-                {% assign title = page.next.title | slice: 0, 8 | append: "..."%}
-              {% else %}
-                {% assign title = page.next.title %}
-              {% endif %}
-              <a href="{{ site.url | append: site.baseurl | append: page.next.url | relative_url }}">{{ title | escape }}</a>&gt;&gt;
+            {% assign title_size = page.next.title | size %}
+            {% assign title = "" %}
+            {% if title_size > 8 %}
+            {% assign title = page.next.title | slice: 0, 8 | append: "..."%}
+            {% else %}
+            {% assign title = page.next.title %}
+            {% endif %}
+            <a href="{{ site.url | append: site.baseurl | append: page.next.url | relative_url }}">{{ title | escape
+              }}</a>&gt;&gt;
             {% endif %}
           </div>
         </div>
