@@ -1,4 +1,4 @@
-This repository is based on Semimaro, a simple Jekyll Theme.
+This repository is based on Semimaro, a simple Jekyll Theme.   
 Site: [https://yoheihayamizu.github.io/yhayamizu/](https://yoheihayamizu.github.io/yhayamizu/)
 
 # Semimaro - Jekyll Theme
