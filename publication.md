@@ -9,6 +9,16 @@ permalink: /publication/
 <!-- ------- -->
 
 ##### Proceedings
+###### 2022
+* Hiroki Shiraishi, **Yohei Hayamizu**, Hiroyuki Sato, Keiki Takadama: Can the same rule representation change its matching area? enhancing representation in XCS for continuous space by probability distribution in multiple dimension, The Genetic and Evolutionary Computation Conference (GECCO), 2022. ([Paper](https://dl.acm.org/doi/abs/10.1145/3512290.3528874))
+
+* Hiroki Shiraishi, **Yohei Hayamizu**, Hiroyuki Sato, Keiki Takadama: Absumption based on overgenerality and condition-clustering based specialization for XCS with continuous-valued inputs, The Genetic and Evolutionary Computation Conference (GECCO), 2022. ([Paper](https://dl.acm.org/doi/abs/10.1145/3512290.3528841) <span style="color:red">Best Paper Award</span>)
+
+* Hiroki Shiraishi, **Yohei Hayamizu**, Iko Nakari, Hiroyuki Sato, Keiki Takadama: Inheritance vs. Expansion: Generalization Degree of Nearest Neighbor Rule in Continuous Space as Covering Operator of XCS, International Conference on the Applications of Evolutionary Computation, 2022. ([Paper](https://link.springer.com/chapter/10.1007/978-3-031-02462-7_23))
+
+* Hiroki Shiraishi, **Yohei Hayamizu**, Hiroyuki Sato, Keiki Takadama: Beta Distribution-based XCS Classifier System, IEEE Congress on Evolutionary Computation (CEC), 2021.
+
+
 ###### 2021
 * **Yohei Hayamizu**, Saeid Amiri, Kishan Chandan, Keiki Takadama, Shiqi Zhang: Guiding robot exploration in reinforcement learning via automated planning, International Conference on Automated Planning and Scheduling (ICAPS), 2021. ([Paper](https://ojs.aaai.org/index.php/ICAPS/article/view/16011), [Video](https://youtu.be/ZMP3p4ayhXM))
 
