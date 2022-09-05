@@ -7,10 +7,10 @@ permalink: /about/en
 
 
 I am a 1st-year Ph.D. student at Binghamton University and work under the supervision of Prof. Shiqi Zhang.
-My research interests are Human-Robot Interaction (HRI), and Sequential Decision Making(SDM). 
+My research interests are Human-Robot Interaction (HRI) and Sequential Decision Making(SDM). 
 I work on Visual-Dialogue Navigation systems that can adapt to spatial information and user intentions by interacting with humans in a
 physical environment to improve the robot's persuasion ability. 
-I am also interested in leveraging the synergy between Reinforcement Learning and Automated Planning to bridge the gap between learning approach and knowledge representation and reasoning.
+I am also interested in leveraging the synergy between Reinforcement Learning and Automated Planning to bridge the gap between learning approaches and knowledge representation and reasoning approaches.
 
 <!--  
 I research on a Dialog-Navigation problem. We learned Dialog and Navigation in this cource. Navigation is a combination research on those two conventional research. In our research, we focus on the robot which can convince a human to make a good decision in a scenario where the human and the robot move around and they sometimes conversate. 
