@@ -2,7 +2,7 @@
 lang: en-US
 layout: about
 title: About
-permalink: /about/en
+description: HOME
 ---
 
 
