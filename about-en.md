@@ -33,7 +33,7 @@ As you learned in this cource, dialog is conducted in a loop of human and robot.
 **The State University of New York at Binghamton** <span class="tag">Aug. 2021 - Present</span>
 
 Ph.D. in Computer Science,
-GPA: 3.80/4.0,
+GPA: 3.89/4.0,
 Advisor: Prof. Shiqi Zhang
 
 **University of Electro-Communications (UEC)** <span class="tag">Apr. 2018 - Mar. 2021</span>
