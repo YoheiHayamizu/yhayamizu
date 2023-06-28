@@ -1,6 +1,7 @@
 ---
 lang: en-US
 layout: default
+permalink: /
 description: HOME
 ---
 
