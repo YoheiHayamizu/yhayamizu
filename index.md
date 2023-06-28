@@ -1,6 +1,6 @@
 ---
 lang: en-US
-layout: default
+layout: about
 permalink: /
 description: HOME
 ---

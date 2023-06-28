@@ -42,7 +42,7 @@ permalink: /blog/posts/:categories/:year/:month/:day/:hour-:minute-:second:outpu
 # Navbar item setting
 # Nested items make dropdown menu.
 navitem:
-  - index.md
+  -
     - about-en.md
     - about-ja.md
   # - blog.md
