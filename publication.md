@@ -16,7 +16,8 @@ permalink: /publication/
 
 * Hiroki Shiraishi, **Yohei Hayamizu**, Iko Nakari, Hiroyuki Sato, Keiki Takadama: Inheritance vs. Expansion: Generalization Degree of Nearest Neighbor Rule in Continuous Space as Covering Operator of XCS, International Conference on the Applications of Evolutionary Computation, 2022. ([Paper](https://link.springer.com/chapter/10.1007/978-3-031-02462-7_23))
 
-* Hiroki Shiraishi, **Yohei Hayamizu**, Hiroyuki Sato, Keiki Takadama: Beta Distribution-based XCS Classifier System, IEEE Congress on Evolutionary Computation (CEC), 2021.
+* Hiroki Shiraishi, **Yohei Hayamizu**, Hiroyuki Sato, Keiki Takadama: Beta Distribution-based XCS Classifier System, IEEE Congress on Evolutionary Computation (CEC), 2022.
+
 
 
 ###### 2021
@@ -28,8 +29,8 @@ permalink: /publication/
 
 ###### 2020
 * **Yohei Hayamizu**, Saeid Amiri, Kishan Chandan, Keiki Takadama, Shiqi Zhang: Efficient Exploration in Reinforcement Learning Leveraging Automated Planning, The NeurIPS-2020 Workshop on Robot Learning, 2020. [Paper](http://www.robot-learning.ml/2020/files/C8.pdf), [Video](https://www.dropbox.com/s/btu1ghi10e4mhov/NeurIPSWS2020\_GDQ.mp4?dl=0))
-  
-  
+
+
 <!-- ----- -->
 
 <!-- ##### Presentations -->

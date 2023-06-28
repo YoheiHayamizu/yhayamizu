@@ -1,7 +1,7 @@
 ---
 lang: ja-JP
 layout: about
-title: About
+title: About Me
 permalink: /about/ja/
 ---
 
