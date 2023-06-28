@@ -1,11 +1,8 @@
----
-layout: default
----
 <div class="container content box">
   <a href=""></a>
   <div class="columns">
     <div class="column is-one-fifth">
-      <img src="{{ site.profile.picture | relative_url}}" alt="">
+      <img src="{{ site.profile.picture | relative_url}}" alt="" style="margin: auto; align-self: center;">
     </div>
     <div class="column">
       <div class="is-size-5 has-text-weight-semibold">
@@ -14,7 +11,7 @@ layout: default
         {%- else -%}
         {{site.profile.name}}
         {%- endif -%}
-        ({{site.profile.position}})
+        &nbsp;({{site.profile.position}})
       </div>
       <div class="is-size-6">
         {%- if page.lang == "en-US" -%}
@@ -23,13 +20,21 @@ layout: default
         {{site.profile.affiliation}}
         {%- endif -%}
       </div>
-      {%- if site.profile.email -%}<div><span class="icon"><i class="far fa-envelope"></i></span><a>
-          {{ site.profile.email }}</a></div>{%- endif -%}
+
       {%- include social.html -%}
+
+      <div class="is-size-6">
+        <div class="has-text-weight-semibold">Research Area:</div>
+        <div>{{ site.profile.researcharea }}</div>
+      </div>
+
+      <div class="is-size-6">
+        {%- if site.profile.email -%}
+        <div class="has-text-weight-semibold">Contact:</div>
+        <div><span class="icon"><i class="far fa-envelope"></i></span>{{ site.profile.email }}</div>
+        {%- endif-%}
+      </div>
+
     </div>
   </div>
-</div>
-
-<div class="box">
-  {{content}}
 </div>

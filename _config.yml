@@ -22,22 +22,25 @@ profile:
   picture: assets/images/profile.jpg
   affiliation: ニューヨーク州立大学ビンガムトン校 コンピュータサイエンス専攻 Autonomous Intelligent Robotics Lab.
   affiliation_en: Autonomous Intelligent Robotics Lab. Department of Computer Science, SUNY Binghamton.
+  researcharea: Artificial Intelligence, Robotics, Dialog Systems
   email: yhayami1 "at" binghamton.edu
   # social account setting
-  # dribbble: username
-  facebook: hayamizuyohei
-  # flickr: username
-  github: YoheiHayamizu
-  # instagram: username
-  linkedin: yohei-hayamizu-74539a168
-  # pinterest: usename
-  SCHOLAR_ID: J47eozMAAAAJ
-  twitter: &twitter_username rlmizu
-  # googleplus: username
+  # dribbble: https://dribbble.com/
+  researchgate: https://www.researchgate.net/profile/Yohei-Hayamizu
+  gscholar: https://scholar.google.com/citations?user=J47eozMAAAAJ
+  orcid: https://orcid.org/0000-0003-1642-4919
+  github: https://github.com/YoheiHayamizu
+  linkedin: https://www.linkedin.com/in/yohei-hayamizu-74539a168
+  twitter: https://www.twitter.com/rlmizu
+  # flickr: https://www.flickr.com/photos/username
+  # instagram: https://instagram.com/username
+  # googleplus: https://plus.google.com/username
+  # pinterest: https://www.pinterest.com/usename
+  # facebook: https://www.facebook.com/hayamizuyohei
 
 # Post-url format setting
 # Usage: https://jekyllrb.com/docs/permalinks/
-permalink: /blog/posts/:categories/:year/:month/:day/:hour-:minute-:second:output_ext
+permalink: /post/posts/:categories/:year/:month/:day/:hour-:minute-:second:output_ext
 
 # Navbar item setting
 # Nested items make dropdown menu.
@@ -45,8 +48,8 @@ navitem:
   -
     - about-en.md
     - about-ja.md
-  # - blog.md
   - publications.md
+  - post.md
 
 # If you enable google analytics, comment out the following line:
 # google_analytics_tracking_id: xx-xxxxxxxxx-x

@@ -1,4 +1,5 @@
 ---
+lang: en-US
 layout: box
 title: Publications
 permalink: /publications/

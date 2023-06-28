@@ -1,6 +1,6 @@
 ---
 lang: en-US
-layout: about
+layout: box
 title: About Me
 permalink: /about/en
 ---

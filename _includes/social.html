@@ -1,32 +1,43 @@
-{%- if site.profile.dribbble -%}<div><span class="icon"><i class="fab fa-dribbble"></i></span><a
-                href="https://dribbble.com/{{ site.profile.dribbble| cgi_escape | escape }}"><span class="username">{{
-                        site.profile.dribbble| escape }}</span></a></div>{%- endif -%}
-{%- if site.profile.facebook -%}<div><span class="icon"><i class="fab fa-facebook"></i></span><a
-                href="https://www.facebook.com/{{ site.profile.facebook| cgi_escape | escape }}"><span
-                        class="username">{{ site.profile.facebook| escape }}</span></a></div>{%- endif -%}
-{%- if site.profile.SCHOLAR_ID -%}<div><span class="icon"><i class="ai ai-google-scholar"></i></span><a
-                href="https://scholar.google.com/citations?user={{ site.profile.SCHOLAR_ID }}"><span
-                        class="username">{{site.profile.SCHOLAR_ID}}</span></a></div>{%- endif -%}
-{%- if site.profile.flickr -%}<div><span class="icon"><i class="fab fa-flickr"></i></span><a
-                href="https://www.flickr.com/photos/{{ site.profile.flickr| cgi_escape | escape }}"><span
-                        class="username">{{ site.profile.flickr| escape }}</span></a></div>{%- endif -%}
-{%- if site.profile.github -%}<div><span class="icon"><i class="fab fa-github"></i></span><a
-                href="https://github.com/{{ site.profile.github| cgi_escape | escape }}"><span
-                        class="username"></span>{{ site.profile.github| escape }}</span></a></div>{%- endif -%}
-{%- if site.profile.instagram -%}<div><span class="icon"><i class="fab fa-instagram"></i></span><a
-                href="https://instagram.com/{{ site.profile.instagram| cgi_escape | escape }}"><span class="username">{{
-                        site.profile.instagram| escape }}</span></a></div>{%- endif -%}
-{%- if site.profile.linkedin -%}<div><span class="icon"><i class="fab fa-linkedin"></i></span><a
-                href="https://www.linkedin.com/in/{{ site.profile.linkedin| cgi_escape | escape }}"><span
-                        class="username">{{ site.profile.linkedin| escape }}</span></a></div>{%- endif -%}
-{%- if site.profile.pinterest -%}<div><span class="icon"><i class="fab fa-pinterest"></i></span><a
-                href="https://www.pinterest.com/{{ site.profile.pinterest| cgi_escape | escape }}"><span
-                        class="username">{{ site.profile.pinterest| escape }}</span></a></div>{%- endif -%}
-{%- if site.profile.twitter -%}<div><span class="icon"><i class="fab fa-twitter"></i></span><a
-                href="https://www.twitter.com/{{ site.profile.twitter| cgi_escape | escape }}"><span class="username">{{
-                        site.profile.twitter| escape }}</span></a></div>{%- endif -%}
-{%- if site.profile.googleplus -%}<div><span class="icon"><i class="fab fa-google-plus"></i></span><a
-                href="https://plus.google.com/{{ site.profile.googleplus| escape }}"><span class="username">{{
-                        site.profile.googleplus| escape }}</span></a></div>{%- endif -%}
-{%- if site.profile.rss -%}<div><span class="icon"><i class="fas rss"></i></span><a
-                href="{{ 'feed.xml' | relative_url }}"><span>{{ site.rss | escape }}</span></a></div>{%- endif -%}
+<div>
+    {%- if site.profile.github -%}<span class="icon"><i class="fab fa-github"></i></span><a
+        href="{{ site.profile.github | escape }}"><span class="sns"></span>Github</span></a>
+    {%- endif-%}
+    {%- if site.profile.twitter -%}<span class="icon"><i class="fab fa-twitter"></i></span><a
+        href="{{ site.profile.twitter| escape }}"><span class="sns">Twitter</span></a>
+    {%- endif -%}
+    {%- if site.profile.linkedin -%}<span class="icon"><i class="fab fa-linkedin"></i></span><a
+        href="{{ site.profile.linkedin| escape }}"><span class="sns">Linkedin</span></a>
+    {%- endif -%}
+    {%- if site.profile.gscholar -%}<span class="icon"><i class="ai ai-google-scholar"></i></span><a
+        href="{{ site.profile.gscholar| escape }}"><span class="sns">Google Scholar</span></a>
+    {%-endif -%}
+    {%- if site.profile.researchgate -%}<span class="icon"><i class="ai ai-researchgate"></i></span><a
+        href="{{ site.profile.gscholar| escape }}"><span class="sns">researchGate</span></a>
+    {%-endif -%}
+    {%- if site.profile.orcid -%}<span class="icon"><i class="ai ai-orcid"></i></span><a
+        href='{{ site.profile.orcid| escape }}'><span class="sns">ORCID</span></a>
+    {%-endif -%}
+</div>
+
+
+<!-- {%- if site.profile.rss -%}<span class="icon"><i class="fas rss"></i></span><a
+        href="{{ 'feed.xml' | relative_url }}"><span>{{ site.rss | escape }}</span></a>
+{%- endif -%}
+{%- if site.profile.dribbble -%}<span class="icon"><i class="fab fa-dribbble"></i></span>
+    <a href="{{ site.profile.dribbble| escape }}"><span class="sns">Dribbble</span></a>
+{%- endif -%}
+{%- if site.profile.facebook -%}<span class="icon"><i class="fab fa-facebook"></i></span>
+    <a href="{{ site.profile.facebook| escape }}"><span class="sns">Facebook</span></a>
+{%- endif -%}
+{%- if site.profile.flickr -%}<span class="icon"><i class="fab fa-flickr"></i></span><a
+        href="{{ site.profile.flickr| escape }}"><span class="sns">Flickr</span></a>
+{%- endif -%}
+{%- if site.profile.instagram -%}<span class="icon"><i class="fab fa-instagram"></i></span><a
+        href="{{ site.profile.instagram| escape }}"><span class="sns">Instagram</span></a>
+{%- endif -%}
+{%- if site.profile.pinterest -%}<span class="icon"><i class="fab fa-pinterest"></i></span><a
+        href="{{ site.profile.pinterest| escape }}"><span class="sns">Pinterest</span></a>
+{%- endif -%}
+{%- if site.profile.googleplus -%}<span class="icon"><i class="fab fa-google-plus"></i></span><a
+        href="{{ site.profile.googleplus| escape }}"><span class="sns">Google Plus</span></a>
+{%- endif -%} -->

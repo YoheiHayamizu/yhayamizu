@@ -1,6 +1,6 @@
 ---
 lang: ja-JP
-layout: about
+layout: box
 title: About Me
 permalink: /about/ja/
 ---
