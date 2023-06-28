@@ -1,7 +1,7 @@
 ---
 layout: box
-title: Publication
-permalink: /publication/
+title: Publications
+permalink: /publications/
 ---
 
 <!-- ##### Publications -->

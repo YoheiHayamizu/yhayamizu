@@ -46,7 +46,7 @@ navitem:
     - about-en.md
     - about-ja.md
   # - blog.md
-  - publication.md
+  - publications.md
 
 # If you enable google analytics, comment out the following line:
 # google_analytics_tracking_id: xx-xxxxxxxxx-x
