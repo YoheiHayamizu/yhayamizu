@@ -23,8 +23,8 @@ layout: default
         {{site.profile.affiliation}}
         {%- endif -%}
       </div>
-      {%- if site.profile.email -%}<div><span class="icon"><i class="far fa-envelope"></i></span><a
-          href="mailto:{{ site.profile.email }}">{{ site.profile.email }}</a></div>{%- endif -%}
+      {%- if site.profile.email -%}<div><span class="icon"><i class="far fa-envelope"></i></span><a>
+          {{ site.profile.email }}</a></div>{%- endif -%}
       {%- include social.html -%}
     </div>
   </div>

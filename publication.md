@@ -9,6 +9,9 @@ permalink: /publication/
 <!-- ------- -->
 
 ##### Proceedings
+###### 2023
+* **Yohei Hayamizu**, Zhou Yu, and Shiqi Zhang: Learning Joint Policies for Human-Robot Dialog and Co-Navigation, IEEE/RSJ International Conference on Intelligent Robots (IROS), 2023 [Accepted]
+
 ###### 2022
 * Hiroki Shiraishi, **Yohei Hayamizu**, Hiroyuki Sato, Keiki Takadama: Can the same rule representation change its matching area? enhancing representation in XCS for continuous space by probability distribution in multiple dimension, The Genetic and Evolutionary Computation Conference (GECCO), 2022. ([Paper](https://dl.acm.org/doi/abs/10.1145/3512290.3528874))
 
