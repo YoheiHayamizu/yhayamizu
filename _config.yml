@@ -11,7 +11,8 @@ lang: en-US
 
 # Please comment out url variables when you upload the files in _site directory to a web server other than GitHub Pages.
 # If you upload your site to https://your-domain.com/site-root, it is as follows:
-# url: https://your-domain.com
+url: https://yoheihayamizu.github.io
+# repository : "yoheihayamizu.github.io"
 # baseurl: /
 
 # profile variables are used in About page.
