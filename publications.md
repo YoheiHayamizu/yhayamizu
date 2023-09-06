@@ -13,14 +13,16 @@ permalink: /publications/
 ###### 2023
 * **Yohei Hayamizu**, Zhou Yu, and Shiqi Zhang: Learning Joint Policies for Human-Robot Dialog and Co-Navigation, IEEE/RSJ International Conference on Intelligent Robots (IROS), 2023. ([Paper](https://robotics.cs.binghamton.edu/papers/hayamizu2023learning.pdf))
 
+* Hiroki Shiraishi, **Yohei Hayamizu**, Tomonori Hashiyama: Fuzzy-UCS Revisited: Self-Adaptation of Rule Representations in Michigan-Style Learning Fuzzy-Classifier Systems, The Genetic and Evolutionary Computation Conference (GECCO), 2023. ([Paper](https://dl.acm.org/doi/abs/10.1145/3583131.3590360))
+
 ###### 2022
+* Hiroki Shiraishi, **Yohei Hayamizu (co-author)**, Hiroyuki Sato, Keiki Takadama: Beta Distribution-based XCS Classifier System, IEEE Congress on Evolutionary Computation (CEC), 2022. ([Paper](https://ieeexplore.ieee.org/abstract/document/9870314))
+
 * Hiroki Shiraishi, **Yohei Hayamizu**, Hiroyuki Sato, Keiki Takadama: Can the same rule representation change its matching area? enhancing representation in XCS for continuous space by probability distribution in multiple dimension, The Genetic and Evolutionary Computation Conference (GECCO), 2022. ([Paper](https://dl.acm.org/doi/abs/10.1145/3512290.3528874))
 
 * Hiroki Shiraishi, **Yohei Hayamizu**, Hiroyuki Sato, Keiki Takadama: Absumption based on overgenerality and condition-clustering based specialization for XCS with continuous-valued inputs, The Genetic and Evolutionary Computation Conference (GECCO), 2022. ([Paper](https://dl.acm.org/doi/abs/10.1145/3512290.3528841) <span style="color:red">Best Paper Award</span>)
 
 * Hiroki Shiraishi, **Yohei Hayamizu**, Iko Nakari, Hiroyuki Sato, Keiki Takadama: Inheritance vs. Expansion: Generalization Degree of Nearest Neighbor Rule in Continuous Space as Covering Operator of XCS, International Conference on the Applications of Evolutionary Computation, 2022. ([Paper](https://link.springer.com/chapter/10.1007/978-3-031-02462-7_23))
-
-* Hiroki Shiraishi, **Yohei Hayamizu**, Hiroyuki Sato, Keiki Takadama: Beta Distribution-based XCS Classifier System, IEEE Congress on Evolutionary Computation (CEC), 2022.
 
 
 
