@@ -8,7 +8,7 @@ description: Yohei Hayamizu
 I am a 3rd-year Ph.D. student at Binghamton University and work under the supervision of Prof. Shiqi Zhang.
 My research interests are Human-Robot Interaction (HRI) and Sequential Decision Making (SDM).
 
-[Download CV](/https://yoheihayamizu.github.io/yhayamizu/assets/CV_Yohei_Hayamizu.pdf)
+[Download CV](/assets/downloads/CV_Yohei_Hayamizu.pdf)
 
 ### HRI
 I study social-influence mobile robots, which are designed to interact with humans while navigating their environments. To be effective at social influence, these robots must not only accomplish their tasks but also establish enduring connections with humans. Unlike conventional chatbot assistants, social-influence mobile robots are physically present, requiring them to perceive and comprehend their surroundings to communicate adeptly. Utilizing context awareness enables these robots to react fittingly to ongoing situations, resulting in more natural and meaningful interactions.
