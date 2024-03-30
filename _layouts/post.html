@@ -18,6 +18,11 @@ layout: default
         <div class="is-size-4">
           {{page.title | escape}}
         </div>
+        {% if page.description %}
+        <div>
+          <sub>{{page.description | escape}}</sub>
+        </div>
+        {% endif %}
         {% if page.tags %}
         <div>
           {% for tag in page.tags %}
