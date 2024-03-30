@@ -6,7 +6,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Yohei Hayamizu
-copyright: (c) 2023 Yohei Hayamizu
+copyright: (c) 2024 Yohei Hayamizu
 lang: en-US
 
 # Please comment out url variables when you upload the files in _site directory to a web server other than GitHub Pages.
