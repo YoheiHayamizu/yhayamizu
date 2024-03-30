@@ -23,7 +23,7 @@ profile:
   picture: assets/images/profile.jpg
   affiliation: ニューヨーク州立大学ビンガムトン校 コンピュータサイエンス専攻 Autonomous Intelligent Robotics Lab.
   affiliation_en: Autonomous Intelligent Robotics Lab. Department of Computer Science, SUNY Binghamton.
-  researcharea: Artificial Intelligence, Robotics, Dialog Systems
+  researcharea: Artificial Intelligence, Robotics, Reinforcement Learning, Dialog Navigation Systems
   email: yhayami1 "at" binghamton.edu
   # social account setting
   # dribbble: https://dribbble.com/
@@ -79,3 +79,4 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-mathjax
