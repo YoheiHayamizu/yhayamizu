@@ -5,8 +5,7 @@ title: About Me
 permalink: /about/ja/
 ---
 
-I am a 3rd-year Ph.D. student at Binghamton University and work under the supervision of Prof. Shiqi Zhang.
-My research interests are Human-Robot Interaction (HRI) and Sequential Decision Making (SDM).
+研究テーマは、人間とロボットの相互作用（HRI）と逐次意思決定（SDM）です。
 
 [Download CV](/assets/downloads/CV_Yohei_Hayamizu.pdf)
 
@@ -14,10 +13,11 @@ My research interests are Human-Robot Interaction (HRI) and Sequential Decision 
 
 # Research Interests
 ## HRI
-I study social-influence mobile robots, which are designed to interact with humans while navigating their environments. To be effective at social influence, these robots must not only accomplish their tasks but also establish enduring connections with humans. Unlike conventional chatbot assistants, social-influence mobile robots are physically present, requiring them to perceive and comprehend their surroundings to communicate adeptly. Utilizing context awareness enables these robots to react fittingly to ongoing situations, resulting in more natural and meaningful interactions.
+複雑な人間環境において，自律的に様々なタスクを遂行するロボットの開発に取り組んでいます．このようなロボットは，人間のいる空間で効果的にコミュニケーションをとるために，高度な知覚と状況認識を必要とします．ロボットが状況の変化に動的に対応する能力を強化し，人間とロボットの自然で有意義なインタラクションを促進するものです．最近のプロジェクトには，自然言語合成のための空間コンテキストと人間のペルソナを活用した対話システムがあります．
 
 ## SDM
-In the realm of Sequential Decision Making (SDM), I am captivated by the potential synergy between Reinforcement Learning (RL) and knowledge bases. These repositories of knowledge can encompass action-oriented information, domain-specific insights contributed by humans, or even knowledge gleaned from Large Language Models. By integrating these resources and bridging the divide between learning approaches and knowledge representation and reasoning techniques, I aspire to augment the decision-making proficiencies of robots across diverse scenarios.
+強化学習（RL）と知識ベースの間の潜在的な相乗効果に注目しています．これらの知識リポジトリは，行動指向の情報，人間によって提供されたドメイン固有の洞察，あるいはLLMから学んだ知識を包含することができる．これらのリソースを統合し，学習アプローチと知識表現の間の溝を埋めることで，私は多様なシナリオにおけるロボットの意思決定の熟練度を向上させたいと考えている．
+
 
 -------------------
 
