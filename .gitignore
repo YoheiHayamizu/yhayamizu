@@ -4,3 +4,5 @@ _site/
 _postssample/
 .jekyll-metadata
 cacert.pem
+
+_posts/2024*.md
