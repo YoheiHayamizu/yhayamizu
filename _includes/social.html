@@ -1,24 +1,40 @@
-<div>
-    {%- if site.profile.github -%}<span class="icon"><i class="fab fa-github"></i></span><a
-        href="{{ site.profile.github | escape }}"><span class="sns"></span>Github</span></a>
-    {%- endif-%}
-    {%- if site.profile.twitter -%}<span class="icon"><i class="fab fa-twitter"></i></span><a
-        href="{{ site.profile.twitter| escape }}"><span class="sns">Twitter</span></a>
+<!-- Compact Inline Social Icons -->
+<div class="social-icons-inline">
+    {%- if site.profile.github -%}
+    <a href="{{ site.profile.github | escape }}" class="social-icon github" target="_blank" rel="noopener"
+        title="GitHub">
+        <i class="fab fa-github"></i>
+    </a>
     {%- endif -%}
-    {%- if site.profile.linkedin -%}<span class="icon"><i class="fab fa-linkedin"></i></span><a
-        href="{{ site.profile.linkedin| escape }}"><span class="sns">Linkedin</span></a>
+    {%- if site.profile.x -%}
+    <a href="{{ site.profile.x | escape }}" class="social-icon x-twitter" target="_blank" rel="noopener" title="X">
+        <i class="fa-brands fa-x-twitter"></i>
+    </a>
     {%- endif -%}
-    {%- if site.profile.gscholar -%}<span class="icon"><i class="ai ai-google-scholar"></i></span><a
-        href="{{ site.profile.gscholar| escape }}"><span class="sns">Google Scholar</span></a>
-    {%-endif -%}
-    {%- if site.profile.researchgate -%}<span class="icon"><i class="ai ai-researchgate"></i></span><a
-        href="{{ site.profile.gscholar| escape }}"><span class="sns">researchGate</span></a>
-    {%-endif -%}
-    {%- if site.profile.orcid -%}<span class="icon"><i class="ai ai-orcid"></i></span><a
-        href='{{ site.profile.orcid| escape }}'><span class="sns">ORCID</span></a>
-    {%-endif -%}
+    {%- if site.profile.linkedin -%}
+    <a href="{{ site.profile.linkedin | escape }}" class="social-icon linkedin" target="_blank" rel="noopener"
+        title="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+    {%- endif -%}
+    {%- if site.profile.gscholar -%}
+    <a href="{{ site.profile.gscholar | escape }}" class="social-icon gscholar" target="_blank" rel="noopener"
+        title="Google Scholar">
+        <i class="fa-brands fa-google-scholar"></i>
+    </a>
+    {%- endif -%}
+    {%- if site.profile.researchgate -%}
+    <a href="{{ site.profile.researchgate | escape }}" class="social-icon researchgate" target="_blank" rel="noopener"
+        title="ResearchGate">
+        <i class="ai ai-researchgate"></i>
+    </a>
+    {%- endif -%}
+    {%- if site.profile.orcid -%}
+    <a href="{{ site.profile.orcid | escape }}" class="social-icon orcid" target="_blank" rel="noopener" title="ORCID">
+        <i class="ai ai-orcid"></i>
+    </a>
+    {%- endif -%}
 </div>
-
 
 <!-- {%- if site.profile.rss -%}<span class="icon"><i class="fas rss"></i></span><a
         href="{{ 'feed.xml' | relative_url }}"><span>{{ site.rss | escape }}</span></a>

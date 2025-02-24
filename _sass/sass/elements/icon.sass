@@ -19,3 +19,56 @@ $icon-dimensions-large: 3rem !default
   &.is-large
     height: $icon-dimensions-large
     width: $icon-dimensions-large
+
+
+// Compact Inline Social Icons Styling
+.social-icons-inline
+  display: flex
+  flex-wrap: nowrap
+  align-items: center
+  gap: 12px
+  margin: 1rem 0
+
+.social-icon
+  display: inline-flex
+  align-items: center
+  justify-content: center
+  width: 36px
+  height: 36px
+  border-radius: 50%
+  background-color: #f5f5f5
+  color: #333
+  text-decoration: none
+  transition: all 0.2s ease
+
+  i
+    font-size: 1rem
+
+  &:hover
+    transform: translateY(-2px)
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
+    text-decoration: none
+
+  &.github:hover
+    background-color: #333
+    color: white
+
+  &.x-twitter:hover
+    background-color: #000
+    color: white
+
+  &.linkedin:hover
+    background-color: #0077B5
+    color: white
+
+  &.gscholar:hover
+    background-color: #4285F4
+    color: white
+
+  &.researchgate:hover
+    background-color: #00CCBB
+    color: white
+
+  &.orcid:hover
+    background-color: #A6CE39
+    color: white

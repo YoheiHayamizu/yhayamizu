@@ -10,6 +10,15 @@ permalink: /publications/
 <!-- ------- -->
 
 ##### Proceedings
+
+###### 2024
+
+* Xiaohan Zhang, Zainab Altaweel*, **Yohei Hayamizu***, Yan Ding, Saeid Amiri, Hao Yang, Andy Kaminski, Chad Esselink, and Shiqi Zhang (*Equal Contribution): DKPROMPT: Domain Knowledge Prompting Vision-Language Models for Open-World Planning, CVPR EAI Workshop, 2024. ([Paper](https://arxiv.org/abs/2406.17659))
+
+* David DeFazio, **Yohei Hayamizu**, and Shiqi Zhang: Learning quadruped locomotion policies using logical rules, Proceedings of the International Conference on Automated Planning and Scheduling (ICAPS), 2024. ([Paper](https://ojs.aaai.org/index.php/ICAPS/article/view/31470), [Site](https://sites.google.com/view/rm-locomotion-learning/home))
+
+* Issei Saito, Tomoaki Nakamura, Akira Taniguchi, Tadahiro Taniguchi, **Yohei Hayamizu**, and Shiqi Zhang: Emergence of continuous signals as shared symbols through emergent communication, IEEE International Conference on Development and Learning (ICDL), 2024. ([Paper](https://ieeexplore.ieee.org/document/10644981/))
+
 ###### 2023
 * **Yohei Hayamizu**, Zhou Yu, and Shiqi Zhang: Learning Joint Policies for Human-Robot Dialog and Co-Navigation, IEEE/RSJ International Conference on Intelligent Robots (IROS), 2023. ([Paper](https://robotics.cs.binghamton.edu/papers/hayamizu2023learning.pdf))
 
