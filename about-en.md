@@ -5,10 +5,12 @@ title: About Me
 permalink: /about/en
 ---
 
-I am a 4th-year Ph.D. student at Binghamton University and work under the supervision of Prof. Shiqi Zhang.
+I am a 5th-year Ph.D. student at Binghamton University and work under the supervision of Prof. Shiqi Zhang.
 My research interests are Human-Robot Interaction (HRI) and Sequential Decision Making (SDM).
 
 [Download CV](/assets/downloads/CV_Yohei_Hayamizu.pdf)
+
+I am organizing the Human Robot Systems (HRS)-Reading Group at Binghamton University. This weekly meetings bring together students and faculty to explore cutting-edge developments in robotics, artificial intelligence, and human-robot interaction. Please contact me if interested in joining us. [Website](https://yoheihayamizu.github.io/hrs-reading-group/)
 
 -------------------
 
