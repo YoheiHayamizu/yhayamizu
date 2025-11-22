@@ -63,7 +63,7 @@ permalink: /publications/
 
 ##### Honors & Awards
 
-* **Cover Feature, Watson Review** -- Recognized for significant contributions to the robotic guide-dog project (Summer 2025)
+* **Cover Feature, Watson Review** -- Recognized for significant contributions to the robotic project (Summer 2025)
 * **GECCO Best Paper Award (EML Track)** -- 2022
 * **UEC Meguro-kai Award** -- Top 5% of students, University of Electro-Communications (2021)
 * **UEC President's Award for Students** -- Top 10% of students, University of Electro-Communications (2021)
